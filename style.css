@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E3F2FD;
+    
+    background-size: cover;
+    color: #fff;
+}
+
+header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.logo img {
+    height: 50px;
+}
+
+.admin-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.motivation-line {
+    font-style: italic;
+}
+
+.live-info {
+    text-align: right;
+}
+
+#education, #skills, #projects, #social-media {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#education img, #skills img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+   
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
